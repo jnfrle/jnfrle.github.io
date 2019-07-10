@@ -7,9 +7,7 @@
     <title>Hello, world!</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    <!-- My CSS -->
     <link rel="stylesheet" th:href="@{/css/styles.css}" type="text/css"/>
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Belgrano|Flamenco" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +16,7 @@
         <nav>
             <ul class="nav nav-pills float-right">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-danger " href="#">About</a>
@@ -36,30 +34,20 @@
         <p><a class="btn btn-lg btn-success" href="signUp.html" role="button">Sign up today</a></p>
     </div>
 
-    <div class="col-lg-12">
-        <p class="intro">Do your friends laugh at your pain when you bite into a taco? Do they smile in delight as General Tso's chicken leaves you
-            drenched in sweat? Spicy food is enjoyed the world over. In some countries, spicy foods are even fed to the very
-            young to help acclimate their taste buds to the delicious heat. Eating spicy foods will open up a whole new world of
-            culinary delights to those who dare to venture, but for those who haven't eaten many spicy foods, work is required
-            to handle the hotter stuff. Follow a few simple guidelines to acclimate to the spicier food of the world, then conquer
-            the world's hottest dishes.
-        </p>
-    </div>
 
     <div class="row marketing">
         <div class="col-lg-6">
-            <h4 class="linkcolor"><a class="text-warning" href="startingOff.html">Starting Off</a></h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-            <h4 class="linkcolor"><a class="text-warning" href="levelingUp.html">Leveling Up</a></h4>
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+            <img class="img-fluid" src="../img/chilieating.jpg"/>
         </div>
         <div class="col-lg-6">
-            <h4 class="linkcolor"><a class="text-warning" href="conqueringFoes.html">Conquering Foes</a></h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            <h4 class="linkcolor"><a class="text-warning" href="defendingThrone.html">Defending the Throne</a></h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            <p><b>Want to stay seated?</b></p>
+            <p><i>Study up on different cuisine.</i> Many different types of cuisine throughout the world utilize a few staple spices in their dishes. Become familiar with the go-to spices of each regional cuisine to prepare yourself for a particular level of heat.
+            </p>
+            <p><i>Indian cuisine.</i> Often employs a few specific peppers in a spice mixture called a masala. Most common in these masalas is the green finger chile. Chefs will often adjust the spice mixture of the masala, so ask ahead to gauge the spiciness featured in the masala.</p>
+            <p><i>Ethiopian food.</i> often contains a spice mixture called “berbere,” which features not only red chili peppers, but ginger, garlic and cloves. This mix of heat can create a much different (and hotter) experience than a dish featuring only capsaicin-based spices.
+            </p>
         </div>
-        
+
     </div>
     <footer class="footer">
         <p>&copy; Emperor Pepper 2019</p>
